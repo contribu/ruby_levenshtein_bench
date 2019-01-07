@@ -9,9 +9,14 @@ Benchmark.ips do |x|
   a = 'test text 1'
   b = 'text test 2'
 
-  x.report('damerau-levenshtein') do
+  x.report('damerau-levenshtein short text') do
     DamerauLevenshtein.distance(a, b)
   end
 
-  x.compare!
+  c = 'test text 1' * 100
+  d = 'text test 2' * 100
+
+  x.report('damerau-levenshtein long text') do
+    DamerauLevenshtein.distance(c, d)
+  end
 end

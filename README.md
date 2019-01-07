@@ -13,10 +13,10 @@ Please note that require filename is conflicted so the bundler environment is se
 
 ## Conslusion
 
-Use damerau-levenshtein because it supports UTF-8 and moderately fast on short text and long text.
+**Use damerau-levenshtein** because it supports UTF-8 and moderately fast on short text and long text.
 
 |Gem|Short Text Performance|Long Text Performance|UTF-8 Support|
-|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|
 |gem 'damerau-levenshtein'|1.673M|8.370k|o|
 |gem 'levenshtein'|98.976k|20.000|?|
 |gem 'levenshtein-ffi'|5.860M|1.716k|x|

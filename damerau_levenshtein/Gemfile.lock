@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.7.2)
+    damerau-levenshtein (1.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  benchmark-ips
+  damerau-levenshtein
+
+BUNDLED WITH
+   1.16.4

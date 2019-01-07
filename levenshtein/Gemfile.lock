@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.7.2)
+    levenshtein (0.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  benchmark-ips
+  levenshtein
+
+BUNDLED WITH
+   1.16.4

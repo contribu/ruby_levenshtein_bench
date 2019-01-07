@@ -11,6 +11,7 @@ Please note that require filename is conflicted so the bundler environment is se
 ## Conslusion
 
 Fast <---> Slow
+
 levenshtein-ffi > damerau-levenshtein >>>> levenshtein
 
 ## Prepare
